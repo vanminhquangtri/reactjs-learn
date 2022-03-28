@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import CustomHook from 'views/custom-hook';
 import TestUseCallback from 'views/use-callback';
 import TestUseMemo from 'views/use-memo';
+import TestUseReducer from 'views/use-reducer';
 
 export const routes = [
   {
@@ -19,6 +20,11 @@ export const routes = [
     path: '/use-callback',
     title: 'UseCallback',
     element: <TestUseCallback />,
+  },
+  {
+    path: '/use-reducer',
+    title: 'UseReducer',
+    element: <TestUseReducer />,
   },
 ];
 
