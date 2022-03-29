@@ -15,7 +15,7 @@ import storage from 'redux-persist/lib/storage';
 import rootReducers from './root-reducer';
 
 const persistConfig = {
-  key: 'minh-learn-reactjs',
+  key: 'MINH-LEARN-REACTJS',
   version: 1,
   storage,
 };
