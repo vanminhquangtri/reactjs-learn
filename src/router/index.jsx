@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import CustomHook from 'views/custom-hook';
+import { TestReduxToolkit } from 'views/redux-toolkit';
 import TestUseCallback from 'views/use-callback';
 import TestUseMemo from 'views/use-memo';
 import TestUseReducer from 'views/use-reducer';
@@ -25,6 +26,11 @@ export const routes = [
     path: '/use-reducer',
     title: 'UseReducer',
     element: <TestUseReducer />,
+  },
+  {
+    path: '/redux-toolkit',
+    title: 'ReduxToolKit',
+    element: <TestReduxToolkit />,
   },
 ];
 
